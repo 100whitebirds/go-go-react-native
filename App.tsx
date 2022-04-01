@@ -86,7 +86,7 @@ const App = () => {
   
   return (
     <View style={{ flex: 1, backgroundColor: '#a99adb' }}>
-      <View style={{ flex: 0.4 }}>
+      <View style={{ flex: 0.45 }}>
         <Appbar.Header>
           <Appbar.Content title='Регистрация' titleStyle={{ textAlign: 'center' }} />
         </Appbar.Header>
@@ -120,7 +120,7 @@ const App = () => {
         />
       </View>
 
-      <View style={{ flex: 0.05, flexDirection: 'row', padding: 9, marginTop: 30 }}>
+      <View style={{ flex: 0.08, flexDirection: 'row', padding: 9, marginTop: 30 }}>
         <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Пол</Text>
 
         <View style={{ flex: 0.8, flexDirection: 'row', marginLeft: 50 }}>
